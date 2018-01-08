@@ -4,10 +4,11 @@ $settings = [
     'settings' => [
         'displayErrorDetails' => true,
         'db' => [
-            'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'database'  => 'slimapp',
-            'username'  => 'root',
+            'driver'    => 'mysql', // you can use mssql, sqlite, etc.
+            'host'      => '',
+            'port'      => '',
+            'database'  => '',
+            'username'  => '',
             'password'  => ''
         ]
     ]
